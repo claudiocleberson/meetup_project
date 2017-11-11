@@ -14,6 +14,7 @@ import AuthGuard from './auth-guard';
 
 Vue.use(Router);
 
+
 export default new Router({
   routes: [
     {
@@ -65,5 +66,8 @@ export default new Router({
       component: SignIn
     }
   ],
-  mode: 'history'
+  mode: 'history',
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 });

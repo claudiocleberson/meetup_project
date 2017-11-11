@@ -1,7 +1,7 @@
 <template>
   <body data-spy="scroll" data-target=".navbar-collapse">
          <!-- Preloader - Disabled -->
-         <div  id="loading">
+         <div id="loading">
                <div id="loading-center">
                    <div id="loading-center-absolute">
                        <div class="object" id="object_one"></div>
@@ -11,7 +11,6 @@
                    </div>
                </div>
            </div><!--End off Preloader -->
-
          <div class="culmn">
              <!--Home page style-->
              <nav class="navbar navbar-default bootsnav navbar-fixed no-background">
@@ -25,8 +24,6 @@
                          </ul>
                      </div>
                      <!-- End Atribute Navigation -->
-
-
                      <!-- Start Header Navigation -->
                      <div class="navbar-header text-center">
                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -48,9 +45,7 @@
                      </div><!-- /.navbar-collapse -->
                  </div>
              </nav>
-
              <!--Home Sections-->
-
              <section id="home" class="home">
                  <div class="container">
                      <div class="row">
@@ -65,7 +60,6 @@
                                      <a href="" class="btn-primary btn m-top-20" style="background-color: #4466c9 "><i class="p-r-15 fa fa-android"></i>{{$t('messages.download')}}</a>
                                  </div>
                              </div>
-
                              <div class="col-md-6">
                                  <div class="phone_one phone_attr1 text-center sm-m-top-50">
                                      <div class="attr_deg"><a class="scrollto" href="#maparea"><i style="color: gray" class="fa fa-map"></i></a></div>
@@ -75,7 +69,6 @@
                                      <img v-bind:src="$t('images.homeImage')" alt="" />
                                  </div>
                              </div>
-
                          </div>
                          <div>
                              <a class="scrooldown" href="#features"><i class="fa fa-chevron-down"></i></a>
@@ -135,7 +128,7 @@
                      </div><!-- End off row -->
                  </div><!-- End off container -->
              </section><!-- End off Featured Section-->
-
+             <!--Gallery section-->
              <section>
                  <div class="container">
                      <div class="row">
@@ -163,10 +156,7 @@
                  </div>
              </section>
 
-
-
              <!--screen short section-->
-
              <section id="screen_area" class="screen_area">
                  <div class="container">
                      <div class="row">
@@ -262,7 +252,6 @@
                      </div><!--End off row-->
                  </div><!--End off container-->
              </section><!--End off Screen01 Area Section -->
-
 
             <!--Reviews Section NOT SHOWING-->
              <section id="reviews" class="hidden reviews m-top-100">
@@ -418,6 +407,12 @@
          </div>
  </body>
 </template>
+
+<script>
+export default {
+  
+}
+</script>
 
 <style scoped>
 

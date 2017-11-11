@@ -49,7 +49,9 @@
         </v-toolbar-items>
     </v-toolbar>
        <main >
-      <router-view></router-view>
+         <keep-alive>
+         <router-view></router-view>
+       </keep-alive>
     </main>
 
   </v-app>
