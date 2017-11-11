@@ -450,7 +450,7 @@ Author URI: http://xpeedstudio.com
 html,
 body {
     /*background:url(../images/bodybg.png) repayet-y;*/
-    background-image: url("../../../static/images/bodybg.png");
+    background-image: url("../../static/images/bodybg.png");
     background-repeat: repeat-y;
     font-size: 16px;
     color: #797979;
@@ -777,7 +777,7 @@ ul{
     top: 0;
 }
 .download_overlay{
-    background: url(../../../static/images/downloadbg.png) repeat-y;
+    background: url(../../static/images/downloadbg.png) repeat-y;
     width:100%;
     height: 100%;
     position: absolute;
@@ -1346,7 +1346,7 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../../../static/images/homebg.png) no-repeat top center;
+    background: url(../../static/images/homebg.png) no-repeat top center;
     background-size: cover;
     position: relative;
 }
