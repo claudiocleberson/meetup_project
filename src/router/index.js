@@ -9,8 +9,9 @@ import SignIn from '../components/User/SignIn.vue';
 import Meetup from '../components/Meetup/Meetup.vue';
 import Privacy from '../components/TermPrivacy/privacy.vue';
 import Terms from '../components/TermPrivacy/term.vue';
-import LandPage from '../components/Landpage/LandPage.vue';
+import Land from '../components/Landpage/LandPage.vue';
 import AuthGuard from './auth-guard';
+
 Vue.use(Router);
 
 export default new Router({
@@ -18,7 +19,7 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: LandPage
+      component: Land
     },
     {
       path: '/privacy',
