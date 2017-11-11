@@ -389,8 +389,8 @@
                                              <li><a href="#home">{{$t('messages.home')}}</a></li>
                                              <li><a href="#features">{{$t('messages.features')}}</a></li>
                                              <li><a href="#download">{{$t('messages.download')}}</a></li>
-                                             <li><a href="/privacy">{{$t('messages.privacyPolicy')}}</a></li>
-                                             <li><a href="/term">{{$t('messages.termOfUse')}}</a></li>
+                                             <router-link to="/privacy" tag="li" ><a>{{$t('messages.privacyPolicy')}}</a></router-link>
+                                             <router-link to="/term" tag="li"><a>{{$t('messages.termOfUse')}}</a></router-link>
                                          </ul>
 
                                     </div><!-- /.navbar-collapse -->

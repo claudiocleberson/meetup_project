@@ -22,7 +22,7 @@
     <v-toolbar
       dark
       dense
-      v-if="!isHome"
+      v-if="false"
       :style="isHome ? 'background-color:rgba(0, 0, 0, 0.2)' : ''"
       :class="!isHome ? 'primary' : ''"
       :absolute="isHome ? true : false"

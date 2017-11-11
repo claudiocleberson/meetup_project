@@ -28,8 +28,9 @@
                      <!-- navbar menu -->
                      <div class="collapse navbar-collapse" id="navbar-menu">
                          <ul class="nav navbar-nav navbar-center">
-                             <li><a href="/">{{$t('messages.home')}}</a></li>
-                             <li><a href="/privacy">{{$t('messages.privacyPolicy')}}</a></li>
+                           <router-link to="/" tag="li"><a>{{$t('messages.home')}}</a></router-link>
+                           <router-link to="/privacy" tag="li" ><a>{{$t('messages.privacyPolicy')}}</a></router-link>
+                           <router-link to="/term" tag="li"><a>{{$t('messages.termOfUse')}}</a></router-link>
                          </ul>
                      </div><!-- /.navbar-collapse -->
                  </div>
@@ -320,8 +321,9 @@
                                      <!-- navbar menu -->
                                      <div class="collapse navbar-collapse" id="navbar-footer">
                                          <ul class="nav navbar-nav navbar-center">
-                                             <li><a href="/">{{$t('messages.home')}}</a></li>
-                                             <li><a href="/privacy">{{$t('messages.privacyPolicy')}}</a></li>
+                                           <router-link to="/" tag="li"><a>{{$t('messages.home')}}</a></router-link>
+                                           <router-link to="/privacy" tag="li" ><a>{{$t('messages.privacyPolicy')}}</a></router-link>
+                                           <router-link to="/term" tag="li"><a>{{$t('messages.termOfUse')}}</a></router-link>
                                          </ul>
                                      </div><!-- /.navbar-collapse -->
                                      <!--Language selector -->
